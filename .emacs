@@ -15,3 +15,6 @@
 
 ;; always show line numbers
 (global-linum-mode 1)
+
+;;The following adds a space after the line-number and add a solid line separator
+(setq linum-format "%4d \u007C")
