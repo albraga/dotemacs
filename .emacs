@@ -21,3 +21,6 @@
 
 ;;The following adds a space after the line-number and add a solid line separator
 (setq linum-format "%4d \u007C")
+
+(require 'autopair)
+  (autopair-global-mode) ;; to enable in all buffers
